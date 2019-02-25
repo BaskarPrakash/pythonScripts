@@ -7,7 +7,7 @@ from requests.exceptions import ConnectionError
 
 def print_options(wrong_options, correct_option, index):
     i=1
-    if wrong_options == "" and (correct_option == "True" or correct_option == "False"):
+    if wrong_options == "" or correct_option == "True" or correct_option == "False":
         print("--> True\n--> False")
         return
     for option in wrong_options:
