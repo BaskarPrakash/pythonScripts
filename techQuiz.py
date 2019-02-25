@@ -59,4 +59,4 @@ finally:
     elif correct / i > 0.25:
         print("Hi Newbie! Better luck next time!! :(")
     else:
-        print("Are u even realated to Computers? I don't think so.. :P ")
+        print("Are u even related to Computers? I don't think so.. :P ")
